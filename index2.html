@@ -110,26 +110,7 @@
                                 <tr>
                                     <td>
                                         <!-- Image Slider Section -->
-                                        <div class="container"> 
-                                           
-                                            <div id="cbp-fwslider" class="cbp-fwslider">
-                                                <ul>
-                                                    <li><a href="#"><img src="images/image_1.jpeg" alt="img01"/></a></li>
-                                                    <li><a href="#"><img src="images/image_2.jpeg" alt="img02"/></a></li>
-                                                    <li><a href="#"><img src="images/image_3.jpeg" alt="img03"/></a></li>
-                                                    <li><a href="#"><img src="images/image_4.jpeg" alt="img04"/></a></li>
-                                                    <li><a href="#"><img src="images/image_5.jpeg" alt="img05"/></a></li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-                                        <script src="js/jquery.cbpFWSlider.min.js"></script>
-                                        <script>
-                                            $( function() {
-                                                 $( '#cbp-fwslider' ).cbpFWSlider();
-
-                                            } );
-                                        </script>
+                                        <img src="images/contactus.jpg" width="980" height="248">
                                         <!-- End of Slider -->
                                     </td>
                                 </tr>
@@ -139,43 +120,47 @@
                                             <div class="mainContent" style="width:345px; float:left; margin-right:20px;">
                                                 <p class="titleTxt">
 
-                                                    ABOUT R.F.Hospitality
+                                                    Head Office
 
                                                 </p>
                                                 <p class="subTxt">
+                                                    <ul>
 
-                                                    R.F.Hospitality is an experienced general trading company, providing export and import services with a wide products ranging from Minerals, glass and ceramics, Chemicals, Auto Parts, Electronics to Machinery, etc. 
+                                                        <li>5 Sterling buildings,  Carfax, 
+                                                        <br></br>
+                                                        Horsham,  RH121DR 
+                                                        <br></br>
+                                                        West Sussex  , United kingdom </li>
+
+                                                    </ul>
 
                                                     <br></br>
                                                     <br></br>
 
-                                                    Combining with worldwide connections and prompt & extensive information-gathering capability with advanced trading techniques and financing ability, R.F.Hospitality produces an optimum solution to its customers' various requirements.
 
                                                 </p>
                                             </div>
-                                            <div class="mainContent" style="width:325px; float:left; margin-right:20px;">
-                                                <p class="titleTxt">
+                                            <div class="telCon" style="width:230px; float:left;">
+                                                <p class="titleTxt" style="margin-bottom:10px;">
 
-                                                    FEATURES AT R.F.Hospitality
-
-                                                </p>
-                                                <p class="subTxt">
-
-                                                    Our Mission is, one main thing and that is to satisfy our valued customers in our trading. We are fuelled by ursuing constant challenge and persistent innovation by creating new value, reinforcing competitiveness in trading &distribution of all range of products within our sectors.
-
-                                                    <br></br>
-                                                    <br></br>
-
-
-
-                                                    The company pursues constant challenge and persi…
-
-                                                    <br></br>
-
-
-                                                    R.F.Hospitality is an experienced general trading company
+                                                    CUSTOM SERVICE
 
                                                 </p>
+                                               
+                                                <div style="clear:both; margin-top:10px;"></div>
+                                              
+                                                <p style="font-family:Tahoma, Geneva, sans-serif; font-size:24px; font-weight:bold; color:#000; margin-top:10px; line-height:28px;">
+
+                                                    +441403255501
+
+                                                </p>
+                                                <p style="font-family:Tahoma, Geneva, sans-serif; font-size:24px; font-weight:bold; color:#000; margin-top:10px; line-height:28px;">
+
+                                                    rfhospitality@yahoo.com
+
+                                                </p>
+                                                
+                                                
                                             </div>
                                             <!-- <div class="mainContent" style="width:230px; float:left;">
                                                 <p class="titleTxt">
@@ -200,17 +185,38 @@
                                                     <!-- BRAND POWER OF 'R.F HOSPITALITY' -->
 
                                                 </p>
-                                                <img style="margin-top:5px;" src="images/main_pic_01.jpg" width="250px" hight="150"></img>
-                                                <p class="subTxt" style="margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:14px; color:#ce0202; font-weight:bold;">
 
-                                                    "We share the same dream" 
+                                                <!-- Google Maps  (51.066374, -0.324955)   --> 
+                                                <head>
+                                                    <style>
+                                                      #map_canvas {
+                                                        width: 550px;
+                                                        height: 350px;
+                                                      }
+                                                    </style>
+                                                    <script src="https://maps.googleapis.com/maps/api/js"></script>
+                                                    <script>
+                                                      function initialize() {
+                                                        var mapCanvas = document.getElementById('map_canvas');
+                                                        var mapOptions = {
+                                                          center: new google.maps.LatLng(51.066374, -0.324955),
+                                                          zoom: 15,
+                                                          mapTypeId: google.maps.MapTypeId.ROADMAP
+                                                        }
+                                                        var marker = new google.maps.Marker({
+                                                        position: new google.maps.LatLng(51.066374,-0.324955),map: map,title: 'Hello World!'
+                                                        });
+                                                        var map = new google.maps.Map(mapCanvas, mapOptions)
 
-                                                </p>
-                                                <p class="subTxt" style="margin:5px 0 0 0; padding:0;">
+                                                      }
+                                                      google.maps.event.addDomListener(window, 'load', initialize);
+                                                    </script>
+                                                </head>
+                                                <body>
+                                                    <div id="map_canvas"></div>
+                                                </body>
+                                                <!-- Google Maps --> 
 
-                                                    of finding the road to happiness and a future full…
-
-                                                </p>
                                             </div>
                                             <!-- <div class="mainContent" style="width:325px; float:left; margin-right:20px;">
                                                 <p class="titleTxt">
@@ -220,42 +226,7 @@
                                                 </p>
                                                 <img border="0" style="margin-top:5px;" usemap="#Map2" src="images/main_business.jpg"></img>
                                             </div> -->
-                                            <div class="telCon" style="width:230px; float:left;">
-                                                <p class="titleTxt" style="margin-bottom:10px;">
-
-                                                    CUSTOM SERVICE
-
-                                                </p>
-                                               <!--  <p style="width:100px; font-family:Arial, Helvetica, sans-serif; font-size:10px; background:#000; color:#FFF; padding:3px 10px; display:inline; margin:10px 0; ">
-
-                                                    on the phone
-
-                                                </p> -->
-                                                
-                                                <!-- <p align="left" style="font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#868686; padding-right:15px; margin:0px;">
-
-                                                    Monday - Friday 9:30am - 5pm GMT
-
-                                                </p> -->
-                                                <div style="clear:both; margin-top:10px;"></div>
-                                               <!--  <p style="width:100px; font-family:Arial, Helvetica, sans-serif; font-size:10px; background:#bc0202; color:#FFF; padding:3px 10px; display:inline; margin:20px 0 10px 0; ">
-
-                                                    for Auto Parts Division
-
-                                                </p> -->
-                                                <p style="font-family:Tahoma, Geneva, sans-serif; font-size:24px; font-weight:bold; color:#000; margin-top:10px; line-height:28px;">
-
-                                                    +441403255501
-
-                                                </p>
-                                                <p style="font-family:Tahoma, Geneva, sans-serif; font-size:24px; font-weight:bold; color:#000; margin-top:10px; line-height:28px;">
-
-                                                    rfhospitality@yahoo.com
-
-                                                </p>
-                                                
-                                                
-                                            </div>
+                                            
                                         </div>
                                     </td>
                                 </tr>
