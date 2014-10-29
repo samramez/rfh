@@ -1,0 +1,315 @@
+
+body
+{
+crollbar-face-color: #FFFFFF;
+	
+scrollbar-shadow-color: #FFFFFF;
+	
+scrollbar-highlight-color: #FFFFFF;
+	
+scrollbar-3dlight-color: #E5E5E5;
+	
+scrollbar-darkshadow-color: #9A9A9A;
+	
+scrollbar-track-color: #F4F4F4;
+	
+scrollbar-arrow-color: AEAEAE;
+	
+
+}
+
+
+IMG {
+	
+	BORDER-RIGHT: 0px;
+	 BORDER-TOP: 0px;
+	 BORDER-LEFT: 0px;
+	 BORDER-BOTTOM: 0px
+
+}
+
+
+
+A.noticeTxt:link {
+	color: #636363;
+	 FONT-FAMILY:Gulim, Dotum, sans-serif;
+	 FONT-SIZE: 12px;
+	 text-decoration:none;
+ }
+
+
+A.noticeTxt:visited {
+	color: #636363;
+	 FONT-FAMILY:Gulim, Dotum, sans-serif;
+	 FONT-SIZE: 12px;
+	 text-decoration:none;
+ }
+
+
+A.noticeTxt:active {
+	color: #636363;
+	 FONT-FAMILY:Gulim, Dotum, sans-serif;
+	 FONT-SIZE: 12px;
+	 text-decoration:none;
+ }
+
+
+A.noticeTxt:hover {
+	color: #2798AE;
+	FONT-FAMILY: Gulim, Dotum, sans-serif;
+	 FONT-SIZE: 12px;
+	 text-decoration:underline;
+ }
+
+
+
+
+A.mainProd:link {
+	color: #e4df8a;
+	 FONT-FAMILY:Gulim, Dotum, sans-serif;
+	 FONT-SIZE: 11px;
+	 text-decoration:none;
+	 font-weight:bold;
+}
+
+
+A.mainProd:visited {
+	color: #e4df8a;
+	 FONT-FAMILY:Gulim, Dotum, sans-serif;
+	 FONT-SIZE: 11px;
+	 text-decoration:none;
+	 font-weight:bold;
+}
+
+
+A.mainProd:active {
+	color: #e4df8a;
+	 FONT-FAMILY:Gulim, Dotum, sans-serif;
+	 FONT-SIZE: 11px;
+	 text-decoration:none;
+	 font-weight:bold;
+}
+
+
+A.mainProd:hover {
+	color: #2798AE;
+	FONT-FAMILY: Gulim, Dotum, sans-serif;
+	 FONT-SIZE: 11px;
+	 text-decoration:underline;
+	 font-weight:bold;
+}
+
+
+
+A.mainProd2:link {
+	color: #a1a1a0;
+	 FONT-FAMILY:Gulim, Dotum, sans-serif;
+	 FONT-SIZE: 11px;
+	 text-decoration:none;
+ }
+
+
+A.mainProd2:visited {
+	color: #a1a1a0;
+	 FONT-FAMILY:Gulim, Dotum, sans-serif;
+	 FONT-SIZE: 11px;
+	 text-decoration:none;
+ }
+
+
+A.mainProd2:active {
+	color: #a1a1a0;
+	 FONT-FAMILY:Gulim, Dotum, sans-serif;
+	 FONT-SIZE: 11px;
+	 text-decoration:none;
+ }
+
+
+A.mainProd2:hover {
+	color: #2798AE;
+	FONT-FAMILY: Gulim, Dotum, sans-serif;
+	 FONT-SIZE: 11px;
+	 text-decoration:underline;
+ }
+
+
+	
+A:link {
+	color: #333333;
+	 FONT-FAMILY:  Dotum, Tahoma;
+	 FONT-SIZE: 11px;
+	 text-decoration:none;
+}
+
+
+A:visited {
+	color: #333333;
+	 FONT-FAMILY:  Dotum, Tahoma;
+	 FONT-SIZE: 11px;
+	 text-decoration:none;
+}
+
+
+A:active {
+	color: #333333;
+	 FONT-FAMILY: Dotum, Tahoma;
+	 FONT-SIZE: 11px;
+	 text-decoration:none;
+}
+
+
+A:hover {
+	 color: #2798AE;
+	FONT-FAMILY: Dotum, Tahoma;
+	 FONT-SIZE: 11px;
+	 text-decoration:none;
+}
+
+
+td {
+	color: #333333;
+	 FONT-FAMILY:  Dotum, Tahoma;
+	 FONT-SIZE: 11px;
+	 text-decoration:none;
+	line-height:16px;
+}
+
+
+head-form {
+	
+	BORDER-TOP-WIDTH: 0px;
+	 PADDING-RIGHT: 0px;
+	 PADDING-LEFT: 0px;
+	 BORDER-LEFT-WIDTH: 0px;
+	 BORDER-BOTTOM-WIDTH: 0px;
+	 PADDING-BOTTOM: 0px;
+	 PADDING-TOP: 0px;
+	 BACKGROUND-COLOR: #ffffff;
+	 BORDER-RIGHT-WIDTH: 0px
+
+}
+
+
+
+
+div.content {
+	
+	width:694px;
+	
+	background-color:#FFF;
+	
+	border:1px #CCC solid;
+	
+	height:1000px;
+	
+	margin:10px 4px 10px 10px;
+	
+
+}
+
+
+
+div.contentTitle {
+	
+	font-family:Dotum, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	
+	font-size:18px;
+	
+	color:#000;
+	
+	font-weight:bold;
+	
+	margin:15px;
+	
+	width:450px;
+	
+	float:left;
+	
+	line-height:26px;
+	
+
+}
+
+
+
+div.wrapContent {
+	
+	padding:0;
+	
+	margin:30px 0 0 23px;
+	
+
+}
+
+
+
+p.subpageTitle {
+	
+	font-family:Arial, Helvetica, sans-serif;
+	
+	font-size:18px;
+	
+	color:#333;
+	
+	font-weight:bold;
+	
+	margin:0;
+	
+	padding:0;
+	
+
+}
+
+
+
+p.subpageContent{
+	
+	font-family:Arial, Helvetica, sans-serif;
+	
+	font-size:12px;
+	
+	color:#666;
+	
+	margin:15px 0 15px 0;
+	
+	padding:0 20px 0 0;
+	
+
+}
+
+
+
+ul.subpageUl {
+	
+	margin:10px 0 0 15px;
+	
+	padding:0;
+	
+
+}
+
+
+
+ul.subpageUl li {
+	
+	margin:0;
+	
+	padding:3px 0;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	
+	font-size:12px;
+	
+	color:#666;
+	
+
+}
+
+
+
+.jump {
+	
+	margin-top:10px;
+	
+
+}
