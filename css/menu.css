@@ -42,6 +42,10 @@
   word-wrap: break-word;
 }
 
+.menu li:hoverMenu {
+  background-color: #353B41 !important;
+}
+
 .menu a:hover {
   /* Защита от простого a:hover. */
   color: #FFF;
